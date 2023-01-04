@@ -3,7 +3,6 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as pl
 import tensorflow as tf
-import pygame
 
 
 # mnist = tf.keras.datasets.mnist
@@ -25,6 +24,13 @@ import pygame
 # model.save('dajdadmodel')
 
 model = tf.keras.models.load_model('dajdadmodel')
+
+
+
+
+
+
+
 
 img_num = 1
 
